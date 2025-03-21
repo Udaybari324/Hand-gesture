@@ -1,4 +1,4 @@
-# Hand Gesture Recognition using MediaPipe
+# Hand Gesture Recognition using MediaPipe🖐️
 
 This Python project utilizes the [MediaPipe](https://mediapipe.dev/) library and [OpenCV](https://opencv.org/) to perform real-time hand gesture recognition. With this code, you can control your computer's cursor and keyboard using hand gestures.
 
@@ -22,13 +22,13 @@ Before running the code, make sure you have the following dependencies installed
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/baukk/Gesture-Recognition.git
+   git clone https://github.com/Udaybari324/Hand-gesture.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Gesture-Recognition
+   cd Hand-gesture
    ```
 
 3. Run the code:
@@ -42,15 +42,14 @@ Before running the code, make sure you have the following dependencies installed
 5. To exit the program, press 'q' in the OpenCV window.
 
 ## Hand Gestures and Actions
+This project leverages OpenCV and MediaPipe to detect and recognize hand gestures in real time using a webcam. It processes hand landmarks and classifies them into predefined gestures based on the positions and distances between key points.
 
-- **Left Hand (Mouse Control):**
-  - Move your left hand to control the mouse cursor.
-  - When the index finger tip is above the index finger middle, it simulates a left mouse click.
-
-- **Right Hand (Keyboard Control):**
-  - Move your right hand to control the keyboard.
-  - Swipe right or left to simulate arrow key presses ('right' or 'left').
-  - Swipe up or down to simulate arrow key presses ('up' or 'down').
+ ## Supported Gestures
+   1. **Thumbs Up 👍** – Thumb is raised while other fingers are curled downward, indicating approval or agreement.
+   2. **Thumbs Down 👎** – Thumb is pointing downward, representing disapproval or a negative response.
+   3. **OK Sign 👌** – Thumb and index finger form a circle while other fingers remain extended, signaling "OK" or "perfect."
+   4. **Victory ✌️** – Index and middle fingers are raised, forming a "V" shape, often used as a sign of victory or peace.
+   5. **Stop ✋** – All fingers are extended and spread apart, resembling a stop signal to indicate a halt or warning.
 
 ## Customization
 
@@ -66,8 +65,8 @@ This project is licensed under the MIT License.
 
 ## Author
 
-- Tanay Gaur
-- GitHub: [baukk](https://github.com/baukk)
+- Uday Bari 
+- GitHub: [Udaybari324](https://github.com/udaybari324)
 
 Feel free to contribute to this project and make it even more awesome! If you have any questions or suggestions, please open an issue or pull request.
 
